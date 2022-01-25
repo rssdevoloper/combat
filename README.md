@@ -1,41 +1,62 @@
-# Whatapp BOT 🤖
+<p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_viVue7cigCbzc_puEEqJzzzImgaIyviKg&usqp=CAU" width="128" height="128"/>
+</p>
+<p align="center">
+<a href="#"><img title="Erza-Bot" src="https://img.shields.io/badge/Erza Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+<!-- <img src="https://raw.githubusercontent.com/MRHRTZ/DGC-ChatBotV3/main/media/img/dgc.jpg" width="128" height="128"/> -->
+<p align="center">
+<a href="//github.com/inirey"><img src="https://img.shields.io/badge/Author-Rey-red.svg?style=for-the-badge&logo=github"/><a/>
+</p>
+<p align="center">
+<a href="https://javascript.com"><img src="https://img.shields.io/badge/Made%20With-javascript-cyan.svg?style=for-the-badge&logo=javascript"/><a/>
+</p>
+<p align="center">
+<a href="https://github.com/inirey/whatsapp-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/inirey/whatsapp-bot?color=red&style=flat-square"></a>
+<a href="https://github.com/inirey/whatsapp-bot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/inirey/whatsapp-bot?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/inirey/whatsapp-bot"><img title="Followers" src="https://img.shields.io/github/followers/inirey?color=blue&style=flat-square"></a>
+<a href="https://github.com/inirey/whatsapp-bot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/inirey/whatsapp-bot?color=red&style=flat-square"></a>
+</p>
 
-## Demo
 
-[<img height="500" src="./screenshoot/chat-demo.jpeg" alt="img1"/>](screenshot/chat-demo.jpeg)
+## DEPLOY HEROKUAPP
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/inirey/whatsapp-bot/)
 
+## ADD BUILDPACK HEROKU
+* heroku/nodejs
+* https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
+* https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
 
-## Client
+---------
 
-[<img height="500" src="./screenshoot/desktop-scan.png" alt="img1"/>](screenshot/chat-demo.jpeg)
+## WHATSAPP BOT GROUP
+<a href="https://chat.whatsapp.com/D7L8NP2Vnz7Eplx4OAvZdP"><img title="WHATSAPP GROUP" src="https://img.shields.io/badge/Whatsapp Group-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 
+## Install
+Clone this project
 
-## Credit
-
-* [`adiwajshing`](https://github.com/adiwajshing/Baileys) 
-
-## License
-
+```bash
+git clone https://github.com/inirey/whatsapp-bot
+cd whatsapp-bot
+npm i
+npm update
+node . --server
 ```
-MIT License
 
-Copyright (c) 2021 Muhammad Mayudin
+---------
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Install the dependencies:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+```bash
+> bash install.sh
 ```
+
+### Usage
+Run the Whatsapp bot
+
+```bash
+> node . --server
+```
+
+### Thanks To 
+[`@Nurutomo`](https://github.com/Nurutomo)
+[`@ariffb`](https://github.com/ariffb25)
